@@ -190,6 +190,22 @@ body #info {
     font-weight: 500;
     left: 12px;
   }
+
+  .price-contact a {
+    font-size: 3rem;
+    color: red;
+    margin: 30px;
+  }
+  .price-contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+    align-items: center;
+
+    transform: translate(-50px, 50px) scale(1);
+  }
 }
 
 .price-contact {
@@ -198,6 +214,7 @@ body #info {
   justify-content: center;
   height: 100%;
   position: relative;
+  align-items: center;
   top: -60px;
 }
 
@@ -206,7 +223,7 @@ body #info {
 }
 
 .price-contact a {
-  font-size: 5rem;
+  font-size: 2rem;
   color: red;
   margin: 30px;
 }
