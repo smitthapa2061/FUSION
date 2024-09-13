@@ -206,6 +206,22 @@ body #info {
 
     transform: translate(-50px, 50px) scale(1);
   }
+  .learn {
+    position: relative;
+    top: -106px;
+    font-size: 1.4rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 20px;
+    font-family: poppins;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 205px;
+    left: 50px;
+  }
 }
 
 .price-contact {
@@ -226,4 +242,15 @@ body #info {
   font-size: 2rem;
   color: red;
   margin: 30px;
+}
+
+.learn {
+  position: relative;
+
+  font-size: 1rem;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px;
+  font-family: poppins;
 }
