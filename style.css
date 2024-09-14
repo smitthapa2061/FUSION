@@ -410,7 +410,7 @@ body {
   margin-left: 40px;
   justify-content: space-around;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 
 .item-2 {
@@ -434,11 +434,9 @@ body {
   text-decoration: none;
 }
 
-.item-2 a {
-  color: rgb(253, 15, 15);
-}
 .item-2:hover {
   color: black;
+  transition: 1.5s;
 }
 
 .contact-text {
@@ -452,6 +450,45 @@ body {
   left: -40px;
   top: 25px;
   display: none;
+}
+.dc-contact {
+  width: 100%;
+  margin-top: 40px;
+  height: 100%;
+}
+
+.dc-contact:hover {
+  width: 100%;
+
+  margin-top: 40px;
+  height: 100%;
+}
+
+.dc-contact a {
+  width: 100%;
+  background-color: red;
+  width: 400px;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: poppins;
+  color: white;
+  font-weight: 600;
+}
+
+.dc-contact a:hover {
+  width: 100%;
+  background-color: black;
+  width: 400px;
+  font-size: 3rem;
+  text-decoration: none;
+  padding: 15px 20px;
+  border-radius: 30px;
+  font-family: poppins;
+  color: white;
+  font-weight: 600;
+  transition: 0.5s;
 }
 
 @media (min-width: 300px) and (max-width: 1400px) {
@@ -524,7 +561,7 @@ body {
 
   #about h1 {
     color: rgb(0, 0, 0);
-    font-size: 2em;
+    font-size: 1.3em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -575,12 +612,17 @@ body {
 
     position: relative;
   }
+
+  #demo .title p span {
+    margin-left: 6px;
+  }
+
   #demo .title p {
     color: rgb(255, 255, 255);
     width: 1000px;
-    height: 200px;
+
     position: relative;
-    font-size: 2.7rem;
+    font-size: 2.2rem;
     font-family: bebas neue;
 
     display: flex;
@@ -615,13 +657,15 @@ body {
     width: 100vw;
     height: 600px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(229, 229, 229);
   }
   .contact-text #text-1 {
-    position: relative;
-    font-size: 2.2rem;
-    top: -50px;
-    left: 8px;
+    position: absolute;
+    font-size: 1.7rem;
+
+    left: 20px;
     font-family: bebas neue;
   }
   .contact-text #text-2 {
@@ -630,23 +674,28 @@ body {
     font-family: poppins;
     margin: 0 auto;
     text-align: center;
+
+    margin-top: -129px;
   }
 
   .contact-items {
     width: 360px;
-    height: 200px;
+    position: relative;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-    transform: scale(0.6);
+    align-items: flex-start;
+    display: flex;
+    top: 40px;
+    transform: scale(0.68);
+    left: -10px;
   }
   .item-2 {
-    font-size: 2rem;
-    width: 427px;
-    position: relative;
+    font-size: 1rem;
+    width: 100vw;
+    position: ;
     font-family: poppins;
-    margin: 15px;
-    top: 100px;
+    margin: 1px;
   }
 
   .item-2 p {
@@ -655,5 +704,18 @@ body {
 
   .price-contact .item-2 p {
     display: none;
+  }
+  .dc-contact {
+    margin-top: 21px;
+  }
+  .dc-contact a {
+    background-color: rgb(255, 0, 0);
+
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 30px;
+    font-family: poppins;
+    color: white;
   }
 }
