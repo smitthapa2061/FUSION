@@ -153,9 +153,7 @@ body #info {
   html body {
     overflow: scroll;
   }
-  #home {
-    height: 820px;
-  }
+
   .main-container {
     width: 100%;
     height: 100%;
