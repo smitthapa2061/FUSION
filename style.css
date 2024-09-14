@@ -499,6 +499,9 @@ body {
     display: block;
   }
 
+  #home {
+    height: 837px;
+  }
   .main-home-container {
     width: 100vw;
     height: 700px;
